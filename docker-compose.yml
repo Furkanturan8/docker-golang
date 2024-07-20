@@ -1,0 +1,14 @@
+version: "3.9"
+services:
+  database:
+    image: 'mysql:9.0'
+    container_name: 'database'
+    environment:
+      MYSQL_USER: your-username
+      MYSQL_PASSWORD: your-password
+      MYSQL_DATABASE: your-dbName
+      MYSQL_ROOT_PASSWORD: rootpassword
+    ports:
+      - "3307:3306"
+    volumes:
+      - "./docker/dbInit:/docker-entrypoint-initdb.d"
