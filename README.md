@@ -13,7 +13,7 @@
   ![code](https://github.com/Furkanturan8/docker-golang/blob/main/fotos/terminal-code-2.png)
   <br>
 
-- Let's get inside the db : use db;
+- Let's get inside the db and show tables : use db; SHOW tables;
   <br>
 
   ![code 2](https://github.com/Furkanturan8/docker-golang/blob/main/fotos/terminal-code-3.png)
